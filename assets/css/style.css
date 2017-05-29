@@ -1,0 +1,359 @@
+body{
+	margin:auto;
+	color:#303030;
+	background-color: #cccccc;
+	font-size: 18px;
+	background-image: url(../images/background.png);
+	display: inline;
+	align-content: center;
+	font-family: "Arial", "Helvetica New", Helvetica, sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4{
+	color: #777777;
+}
+
+/*p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}*/
+
+.wrapper{
+	width:960px;
+	height: 100%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.bodyWrapper{
+	width:960px;
+	height: 100%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 10%;
+	min-height: 100%;
+}
+
+a{
+	color: #777777;
+	text-decoration: none;
+}
+
+.body{
+	width: 650px;
+	position: relative;
+	float: left;
+	margin-top: 12%;
+	height: 80%;
+	width: 100%; 
+	clear: both;
+	margin-bottom: 10%;
+
+}
+
+.bar{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: #ffffff;
+	border-bottom: 2px #cccccc solid;
+}
+
+.nameBkgd{
+	font-size: 36px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+}
+
+.nameBkgd:hover{
+	background: rgba(0,0,0,0);
+	color: #4aaaa5;
+	box-shadow: inset 0 0 0 3px #4aaaa5;
+}
+
+.nameText{
+	padding-top: 25px
+}
+
+img{
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
+.iconContainer{
+	position: relative;
+	width: 33%;
+	float: left;
+	align-items: center;
+}
+
+.bodyHeader{
+	position: relative;
+	width: 90%;
+	font-size: 36px;
+	font-weight: bold;
+	color: #4aaaac;
+	border-bottom: 2px #cccccc solid;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.aboutMe{
+    overflow: hidden;
+    position: relative;
+    width: 650px;
+    margin-top: 20px;
+    margin-right: 0px;
+    background-color: #ffffff ;
+    border: 1px #dddddd solid;
+    height: 70%;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    float: left;
+}
+
+.aboutMeContent{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.footer{
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: #666666;
+	border-top: 10px #4aaaa5 solid;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	line-height: 85px;
+}
+
+.nav{
+	float: right;
+	right: 0px;
+	width: 400px;
+	height: 100%;
+	padding-top: 35px;
+	font-size: 22px;
+	text-align: right;
+	color: grey;
+}
+
+.nav a:hover{
+	color: #4aaaac;
+	text-decoration: underline;
+}
+
+.link{
+	margin: 5px;
+	color: lightgrey;
+	float:left;
+}
+
+.connectBkgd{
+	float: right;
+	width: 270px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	border: 1px #dddddd solid;
+	padding-left: 6px;
+    padding-right: 6px;
+}
+
+.connectHeader{
+	position: relative;
+	width:80%;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-bottom: 1px #dddddd solid;
+}
+
+.connectIcons{
+	position: relative;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 15px;
+	height: 65px;
+}
+
+.portImage{
+	width: 225px;
+	height: 175px;
+	margin-bottom: 10px;
+	margin-left: 47px;
+}
+
+.portImage:hover{
+	opacity: 0.8;
+}
+
+.icon:hover{
+	opacity: 0.8;
+}
+
+.contactForm {
+	width: 100%;
+}
+
+.input{
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+.button{
+	background-color: #4aaaac;
+	width: 20%;
+}
+
+.push{
+	height: 10%;
+}
+
+/*@media screen and (min-width: 980px) {
+	.wrapper{
+		width: 750px;
+	}
+
+	.aboutMe{
+		width: 60%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.connectBkgd{
+		margin-top: 5%;
+	}
+
+	.portImage{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10%;
+	}
+}*/
+
+/*@media screen and (min-width: 768px) {
+	.wrapper{
+		width: 700px;
+	}
+
+	.nameText{
+		margin-top: 10px;
+	}
+
+	.aboutMe{
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.nav{
+		margin-top: 10px;
+	}
+
+	.connectBkgd{
+		width: 100%;
+		float: left;
+		margin-bottom: 10%;
+	}
+
+	.connectHeader{
+		width: 93%;
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: left;
+	}
+
+	.iconContainer{
+	width: 10%;
+	float: left;
+	align-items: center;
+}
+}*/
+
+@media screen and (min-width: 640px) {
+	.wrapper{
+		width: 640px;
+	}
+
+	.nameBkgd{
+		width: 100%;
+		padding:0;
+	}
+
+	.nameText{
+		padding-top: 7%;
+		width: 100%;
+		text-align: center;
+	}
+
+	.aboutMe{
+		margin-top: 18%;
+		width: 100%;
+		padding: 0;	
+	}
+
+	.aboutMeContent{
+		padding: 0;
+	}
+	
+	.connectBkgd{
+		width: 100%;
+		padding: 0;
+	}
+
+	.iconContainer{
+	width: 10%;
+	align-items: center;
+	}
+
+	.nav{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: 35%;
+		background-color: white;
+		padding: 0;
+	}
+
+	.nav p{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		word-spacing: 45px;
+		padding-top: 1.5%;
+	}
+}
